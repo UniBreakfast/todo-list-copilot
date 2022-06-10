@@ -87,7 +87,7 @@ function renderTask(task) {
       <input type="checkbox" ${completed ? 'checked' : ''}>
       <span>${title}</span>
     </label>
-    <button>🗑️</button>
+    <button title="remove">🗑️</button>
   `;
 
   return li
